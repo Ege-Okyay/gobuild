@@ -14,6 +14,7 @@ A simple command-line tool to cross-compile Go applications based on a YAML conf
     **For macOS & Linux:**
     -   Rename the downloaded file (e.g., `gobuild-linux-amd64`) to `gobuild`.
     -   Make it executable:
+
         ```bash
         chmod +x gobuild
         ```
@@ -25,6 +26,7 @@ A simple command-line tool to cross-compile Go applications based on a YAML conf
 
     **For macOS & Linux:**
     -   Move the `gobuild` file to `/usr/local/bin`:
+    
         ```bash
         sudo mv gobuild /usr/local/bin/
         ```
