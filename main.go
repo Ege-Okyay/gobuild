@@ -64,7 +64,7 @@ func buildBinary(config *Config, build BuildConfig) error {
 		return fmt.Errorf("failed to build for %s/%s: %s %s", build.Goos, build.Goarch, err, output)
 	}
 
-	fmt.Printf("Successfully built for %s/%s", build.Goos, build.Goarch)
+	fmt.Printf("Successfully built for %s/%s\n", build.Goos, build.Goarch)
 	return nil
 }
 
